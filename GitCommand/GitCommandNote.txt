@@ -1,0 +1,34 @@
+ Git command note:- 27Sep20241131PM.
+-------------------
+1) git clone to take remote repository to local system
+$ git clone https://github.com/rabinarayanb/newrepo.git
+
+2) To check the status of the brach like any modification in files
+git status
+
+3) Do the required changes in your needed files and save it.
+and do git status, will see the modifed files in green color i.e your changes are reflected in files.
+git status
+
+4)Add the modifiedfiles using below comand
+
+git add
+
+5)Do git commit like below
+git commit -m "first commit"
+
+6) then do git push
+
+git push -u origin main
+
+
+===========================
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rabinarayanb/javaproject.git
+git push -u origin main
+===========================
+
+git clone https://github.com/rabinarayanb/Note1.git
